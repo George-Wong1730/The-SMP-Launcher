@@ -15,15 +15,15 @@
           <ColumnDefinition Width="1*" />
      </Grid.ColumnDefinitions>
      <local:MyTextBox HintText="在此输入网页链接…" Margin="0,0,0,10" Name="site" Height="30" Grid.Column="0"
-          ToolTip="在此输入链接，点击右边按钮打开自定义网页。&#xA;注意不要按下Enter键，这会直接启动游戏。" Text="https://www.baidu.com" />
+          ToolTip="在此输入链接，点击右边按钮打开自定义网页。&#xA;注意不要按下Enter键，这会直接启动游戏。" Text="https://www.minecraft.net" />
      <local:MyButton EventType="打开网页" EventData="{Binding ElementName=site,Path=Text}" Text="打开网页→"
           Margin="5,0,0,10" Height="30" Grid.Column="1" ToolTip="点我打开" Padding="2,0,2,0"
           ColorType="Highlight" />
 </Grid>
 <local:MyCard Margin="0,0,0,12" Title="常用网站" CanSwap="True" IsSwaped="False">
      <StackPanel Margin="24,40,24,15">
-          <local:MyListItem Margin="-2,0,0,0" Logo="https://www.baidu.com/favicon.ico" Title="百度"
-               Info="百度一下，你就知道" EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable" />
+          <local:MyListItem Margin="-2,0,0,0" Logo="https://www.google.com/favicon.ico" Title="Google"
+               Info="Do the right thing" EventType="打开网页" EventData="https://www.google.com/" Type="Clickable" />
           <local:MyListItem Margin="-2,0,0,0" Logo="https://cn.bing.com/favicon.ico" Title="必应"
                Info="有求必应" EventType="打开网页" EventData="https://cn.bing.com/" Type="Clickable" />
           <local:MyListItem Margin="-2,0,0,0" Logo="https://static.hdslb.com/images/favicon.ico"
