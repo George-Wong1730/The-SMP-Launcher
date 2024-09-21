@@ -52,3 +52,4 @@
           <local:MyListItem Margin="-2,0,0,0" Logo="https://cn.bing.com/favicon.ico" Title="幫我這個伺服器投個票吧"
                Info="投票！！！" EventType="打开网页" EventData="https://www.mc-list.xyz/2251/info#vote" Type="Clickable" />
      </StackPanel>
+</local:MyCard>
