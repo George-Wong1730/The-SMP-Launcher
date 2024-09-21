@@ -44,3 +44,10 @@
      </StackPanel>
 </local:MyCard>
 
+<!--伺服器信息-->
+<local:MyCard Margin="0,-6,0,12" Title="伺服器信息"> 
+     <local:MyListItem Margin="-2,0,0,0" Logo="https://discord.gg" Title="我們的Discord"
+               Info="您會被邀請進我們的官方Discord伺服器！" EventType="打开Discord" EventData="https://discord.gg/qBzcqvtdZW" Type="Clickable" />
+<local:MyListItem Margin="-2,0,0,0" Logo="https://mc-list.xyz" Title="幫我這個伺服器投個票吧"
+               Info="投票！！！" EventType="打开Discord" EventData="https://www.mc-list.xyz/2251/info#vote" Type="Clickable" />
+</local:MyCard>
